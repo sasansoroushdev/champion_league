@@ -4,7 +4,7 @@
 
 ## Usage
 
-Rename "config/config.env.env" to "config/config.env" and update the values/settings to your own
+see "config/config.env" and update the values/settings to your own
 you can set matches delay date after draw and you can change some parameters like host influence and accident influence for predict
 
 ## Install Dependencies
@@ -38,7 +38,7 @@ npm start
 ```
 ## Run App
 ```
-for api sample calls refer to:
+for api sample calls refer to: https://viasocket.com/collection/champion-league-api-integration/2356
 
 ```
 
