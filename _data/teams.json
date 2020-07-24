@@ -1,0 +1,202 @@
+[
+    {
+        "name": "Liverpool",
+        "seed": 1,
+        "offence": 2.8,
+        "defence": 0.3
+    },
+    {
+        "name": "Chelsea",
+        "seed": 1,
+        "offence": 2.5,
+        "defence": 0.5
+    },
+    {
+        "name": "Barcelona",
+        "seed": 1,
+        "offence": 2.9,
+        "defence": 0.4
+    },
+    {
+        "name": "Manchester City",
+        "seed": 1,
+        "offence": 3.3,
+        "defence": 0.2
+    },
+    {
+        "name": "Juventus",
+        "seed": 1,
+        "offence": 2.5,
+        "defence": 0.6
+    },
+    {
+        "name": "Bayern Munich",
+        "seed": 1,
+        "offence": 3.3,
+        "defence": 0.3
+    },
+    {
+        "name": "Paris Saint-Germain",
+        "seed": 1,
+        "offence": 3.2,
+        "defence": 0.7
+    },
+    {
+        "name": "Zenit St Petersburg",
+        "seed": 1,
+        "offence": 2.2,
+        "defence": 0.7
+    },
+
+
+    {
+        "name": "Real Madrid",
+        "seed": 2,
+        "offence": 2.5,
+        "defence": 0.4
+    },
+    {
+        "name": "Atletico Madrid",
+        "seed": 2,
+        "offence": 2.1,
+        "defence": 0.3
+    },
+    {
+        "name": "FC Porto",
+        "seed": 2,
+        "offence": 2.2,
+        "defence": 0.7
+    },
+    {
+        "name": "Tottenham Hotspur",
+        "seed": 2,
+        "offence": 2.1,
+        "defence": 0.7
+    },
+    {
+        "name": "Borussia Dortmund",
+        "seed": 2,
+        "offence": 2.4,
+        "defence": 0.6
+    },
+    {
+        "name": "Napoli",
+        "seed": 2,
+        "offence": 2.1,
+        "defence": 0.7
+    },
+    {
+        "name": "Shakhtar Donetsk",
+        "seed": 2,
+        "offence": 2.2,
+        "defence": 1.0
+    },
+    {
+        "name": "Ajax",
+        "seed": 2,
+        "offence": 2.5,
+        "defence": 1.0
+    },
+
+
+    {
+        "name": "Benfica",
+        "seed": 3,
+        "offence": 2.1,
+        "defence": 0.9
+    },
+    {
+        "name": "Dynamo Kiev",
+        "seed": 3,
+        "offence": 2.0,
+        "defence": 1.0
+    },
+    {
+        "name": "Lyon",
+        "seed": 3,
+        "offence": 1.8,
+        "defence": 0.6
+    },
+    {
+        "name": "Bayer Leverkusen",
+        "seed": 3,
+        "offence": 2.4,
+        "defence": 0.7
+    },
+    {
+        "name": "FC Salzburg",
+        "seed": 3,
+        "offence": 3.0,
+        "defence": 1.1
+    },
+    {
+        "name": "Valencia",
+        "seed": 3,
+        "offence": 1.8,
+        "defence": 0.9
+    },
+    {
+        "name": "Inter Milan",
+        "seed": 3,
+        "offence": 2.4,
+        "defence": 0.7
+    },
+    {
+        "name": "Celtic",
+        "seed": 3,
+        "offence": 2.2,
+        "defence": 1.0
+    },
+
+
+
+    {
+        "name": "FC Copenhagen",
+        "seed": 4,
+        "offence": 1.5,
+        "defence": 1.2
+    },
+    {
+        "name": "Dinamo Zagreb",
+        "seed": 4,
+        "offence": 2.1,
+        "defence": 1.1
+    },
+    {
+        "name": "Lokomotiv Moscow",
+        "seed": 4,
+        "offence": 1.6,
+        "defence": 0.9
+    },
+    {
+        "name": "Genk",
+        "seed": 4,
+        "offence": 1.7,
+        "defence": 1.4
+    },
+    {
+        "name": "Galatasaray",
+        "seed": 4,
+        "offence": 1.7,
+        "defence": 1.2
+    },
+    {
+        "name": "RB Leipzig",
+        "seed": 4,
+        "offence": 2.5,
+        "defence": 0.5
+    },
+    {
+        "name": "Atalanta",
+        "seed": 4,
+        "offence": 2.6,
+        "defence": 0.7
+    },
+    {
+        "name": "Lille",
+        "seed": 4,
+        "offence": 1.8,
+        "defence": 0.7
+    }
+
+]
