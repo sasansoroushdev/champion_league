@@ -36,9 +36,9 @@ npm run dev
 # Run in prod mode
 npm start
 ```
-## Run App
+## API collection
 ```
-for api sample calls refer to: https://viasocket.com/collection/champion-league-api-integration/2356
+for api sample calls refer to: https://www.postman.com/collections/5111aed599365fadf00e and import to postman. change ip and port, then call
 
 ```
 
