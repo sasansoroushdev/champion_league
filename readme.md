@@ -38,7 +38,7 @@ npm start
 ```
 ## API collection
 ```
-for api sample calls refer to: https://www.postman.com/collections/5111aed599365fadf00e then change ip and port
+for api samples, refer to postman collection
 
 ```
 
