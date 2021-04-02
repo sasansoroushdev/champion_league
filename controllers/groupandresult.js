@@ -65,14 +65,14 @@ exports.drawAndCreateGroups = asyncHandler(async (req, res, next) => {
 
 async function drawForFirstMatchAndSaveResults(){
   await MatchAndResult.deleteMany({});
-  var groupName = 'A';
+  let groupName = 'A';
 
   for (i = 0; i < 8; i++) {
 
-    var randomSkipTeamArray = [0,1,2,3];
+    let randomSkipTeamArray = [0,1,2,3];
 
-    var randomSkipTeamAndIndex = getRandomAndIndex(randomSkipTeamArray);
-    var randomSkip = randomSkipTeamAndIndex[0];
+    let randomSkipTeamAndIndex = getRandomAndIndex(randomSkipTeamArray);
+    let randomSkip = randomSkipTeamAndIndex[0];
     randomSkipTeamArray.splice(randomSkipTeamAndIndex[1], 1);
     const randomFirstTeam = await GroupAndResult.findOne({groupName: groupName}).sort({'_id': -1}).skip(randomSkip).select('team');
 
@@ -200,28 +200,25 @@ async function drawForGroupAndSaveResults() {
 
     await GroupAndResult.deleteMany({});
     await Team.updateMany({selectedForGroupDraw: false});
-    var groupName = 'A';
-    var randomSkipSeedOneArray = [0,1,2,3,4,5,6,7];
-    var randomSkipSeedTwoArray = [0,1,2,3,4,5,6,7];
-    var randomSkipSeedThreeArray = [0,1,2,3,4,5,6,7];
-    var randomSkipSeedFourArray = [0,1,2,3,4,5,6,7];
+    let groupName = 'A';
+    let randomSkipSeedOneArray = randomSkipSeedTwoArray = randomSkipSeedThreeArray = randomSkipSeedFourArray = [0,1,2,3,4,5,6,7];
 
     for (i = 0; i < 8; i++) {
 
-    var randomSkipSeedOneAndIndex = getRandomAndIndex(randomSkipSeedOneArray);
-    var randomSkipSeedOne = randomSkipSeedOneAndIndex[0];
+    let randomSkipSeedOneAndIndex = getRandomAndIndex(randomSkipSeedOneArray);
+    let randomSkipSeedOne = randomSkipSeedOneAndIndex[0];
     randomSkipSeedOneArray.splice(randomSkipSeedOneAndIndex[1], 1);
    
-    var randomSkipSeedTwoAndIndex = getRandomAndIndex(randomSkipSeedTwoArray);
-    var randomSkipSeedTwo = randomSkipSeedTwoAndIndex[0];
+    let randomSkipSeedTwoAndIndex = getRandomAndIndex(randomSkipSeedTwoArray);
+    let randomSkipSeedTwo = randomSkipSeedTwoAndIndex[0];
     randomSkipSeedTwoArray.splice(randomSkipSeedTwoAndIndex[1], 1);
 
-    var randomSkipSeedThreeAndIndex = getRandomAndIndex(randomSkipSeedThreeArray);
-    var randomSkipSeedThree = randomSkipSeedThreeAndIndex[0];
+    let randomSkipSeedThreeAndIndex = getRandomAndIndex(randomSkipSeedThreeArray);
+    let randomSkipSeedThree = randomSkipSeedThreeAndIndex[0];
     randomSkipSeedThreeArray.splice(randomSkipSeedThreeAndIndex[1], 1);
 
-    var randomSkipSeedFourAndIndex = getRandomAndIndex(randomSkipSeedFourArray);
-    var randomSkipSeedFour = randomSkipSeedFourAndIndex[0];
+    let randomSkipSeedFourAndIndex = getRandomAndIndex(randomSkipSeedFourArray);
+    let randomSkipSeedFour = randomSkipSeedFourAndIndex[0];
     randomSkipSeedFourArray.splice(randomSkipSeedFourAndIndex[1], 1);
 
 
@@ -254,7 +251,7 @@ async function drawForGroupAndSaveResults() {
 }
 
  function getRandomAndIndex(randomSkipArray) {
-  var random = randomSkipArray[Math.floor(Math.random() * randomSkipArray.length)];
-  var index = randomSkipArray.indexOf(random);
+  let random = randomSkipArray[Math.floor(Math.random() * randomSkipArray.length)];
+  let index = randomSkipArray.indexOf(random);
     return [random,index];
 }
