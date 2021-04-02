@@ -38,7 +38,8 @@ npm start
 ```
 ## API collection
 ```
-for api samples, refer to postman collection
+for api samples, refer to postman collection, You can see samples in this link too: 
+
 
 ```
 
