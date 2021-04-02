@@ -38,8 +38,8 @@ npm start
 ```
 ## API collection
 ```
-for api samples, refer to postman collection, You can see samples in this link too: 
-
+Refer to http://peycargpsserver.ir:5000
+Or download from current repo
 
 ```
 
