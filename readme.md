@@ -38,7 +38,7 @@ npm start
 ```
 ## API collection
 ```
-Refer to http://peycargpsserver.ir:5000
+Refer to http://peycargpsserver.ir:5000/
 Or download from current repo
 
 ```
