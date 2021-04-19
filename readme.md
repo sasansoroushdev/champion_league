@@ -1,6 +1,6 @@
 # Champions League API
 
-> Backend API for Draw and Predict Champions League games
+> Backend API to draw and predict champions league games
 
 ## Usage
 
