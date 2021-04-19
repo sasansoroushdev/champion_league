@@ -4,8 +4,8 @@
 
 ## Usage
 
-see "config/config.env" and update the values/settings to your own
-you can set matches delay date after draw and you can change some parameters like host influence and accident influence for predict
+See "config/config.env" and update the values/settings
+You can set matches delay date after draw and you can change some parameters like host influence and accident influence for predict
 
 ## Install Dependencies
 
@@ -15,9 +15,9 @@ npm install
 
 ## Database Seeder
 
-power indexes of teams has been taken from https://projects.fivethirtyeight.com/global-club-soccer-rankings/
+Power indexes has been taken from https://projects.fivethirtyeight.com/global-club-soccer-rankings/
 
-To seed the database with users and teams with data from the "\_data" folder, run 
+To seed the database from the "\_data" folder, run 
 
 ```
 # Destroy all data
